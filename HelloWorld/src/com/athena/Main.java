@@ -1,6 +1,7 @@
 package com.athena;
 
 import java.awt.*;
+import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Date;
 
@@ -45,13 +46,19 @@ Strings
         System.out.println(message);
 */
 
+/*
         //Arrays
-        int [] numbers = new int[5];
-        numbers[0] = 1;
-        numbers[1] = 2;
-        numbers[2] = 3;
-        numbers[3] = 4;
-        numbers[4] = 5;
+        int [] numbers = {2,3, 5, 6, 4};
+        Arrays.sort(numbers);
         System.out.println(Arrays.toString(numbers));
+        //multidimensional arrays
+        int [][] myNumbers= { {1,3,4}, {5,7,9} };
+        System.out.println(Arrays.deepToString(myNumbers));
+*/
+
+        //Constants
+
+        final float PI = 3.14F;
+        System.out.println(PI);
     }
 }
