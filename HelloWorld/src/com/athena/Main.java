@@ -3,6 +3,16 @@ package com.athena;
 public class Main {
 
     public static void main(String[] args) {
-	    System.out.println("Hello World");
+
+        //Variables
+        //int (4bytes), long(8 bytes), float(4 bytes), double(8 bytes), byte(1 byte), short (2bytes), char (2bytes), boolean (1byte);
+
+        byte myAge =22;
+        byte herAge= myAge;
+        long viewsCount= 3_234_678_453L;
+        float price =10.99F;
+        char letter = 'A';
+        boolean isEligible =false;
+        System.out.println(herAge);
     }
 }
