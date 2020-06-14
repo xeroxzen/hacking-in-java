@@ -1,5 +1,6 @@
 package com.athena;
 
+import java.awt.*;
 import java.util.Date;
 
 public class Main {
@@ -22,10 +23,12 @@ public class Main {
 //        Date now=new Date();
 //        System.out.println(now);
 
-        byte x=1;
-        byte y=x;
-        x = 2;
-        System.out.println(y);
+//        byte x=1;
+//        byte y=x;
+//        x = 2;
+//        System.out.println(y);
+        Point point1 = new Point(x:1, y:1);
+        Point point2 = point1;
 
     }
 }
