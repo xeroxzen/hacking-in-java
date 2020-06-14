@@ -56,9 +56,27 @@ Strings
         System.out.println(Arrays.deepToString(myNumbers));
 */
 
+/*
         //Constants
 
         final float PI = 3.14F;
         System.out.println(PI);
+*/
+
+/*
+        //Arithmetic operations
+        int x = 10;
+        int y = 3;
+        double result = (double)x / (double)y;
+        System.out.println(result);
+        x++;
+*/
+//        Implicit casting
+//        byte > short > int > long > float > float > double
+
+        double x = 1.1;
+        double y = x + 2;
+        System.out.println(y);
+
     }
 }
