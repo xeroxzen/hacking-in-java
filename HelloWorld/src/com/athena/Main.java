@@ -1,6 +1,7 @@
 package com.athena;
 
 import java.awt.*;
+import java.util.Arrays;
 import java.util.Date;
 
 public class Main {
@@ -28,13 +29,29 @@ public class Main {
         */
 
 
+/*
         Point point1 = new Point(1, 1);
         Point point2 = point1;
         point1.x = 2;
         System.out.println(point1);
+Strings
+        String message = new String("Hello World");
+        String msg = "Hello World" + "!!";
+        System.out.println(msg.length());
+*/
+/*
+        //Escape Sequences
+        String message = new String("Hello \"Andile\"");
+        System.out.println(message);
+*/
 
-        //Strings
-        //String message = new String("Hello World");
-
+        //Arrays
+        int [] numbers = new int[5];
+        numbers[0] = 1;
+        numbers[1] = 2;
+        numbers[2] = 3;
+        numbers[3] = 4;
+        numbers[4] = 5;
+        System.out.println(Arrays.toString(numbers));
     }
 }
