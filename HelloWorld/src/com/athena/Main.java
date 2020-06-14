@@ -74,9 +74,14 @@ Strings
 //        Implicit casting
 //        byte > short > int > long > float > float > double
 
-        double x = 1.1;
-        double y = x + 2;
-        System.out.println(y);
+//        double x = 1.1;
+//        double y = x + 2;
+//        String x = "1.2";
+//        double y = Double.parseDouble(x) + 2;
+//        int result = Math.round(1.1F);
+        int result = (int) Math.round(Math.random() * 100);
+        System.out.println(result);
+
 
     }
 }
