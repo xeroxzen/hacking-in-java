@@ -117,18 +117,18 @@ Strings
 //        System.out.println(className);
 
 //        Switch Statements
-        String role = "admin";
-
-        switch  (role) {
-            case "admin":
-                System.out.println("You're an admin");
-                break;
-            case "moderator":
-                System.out.println("You're a moderator");
-                break;
-            default:
-                System.out.println("You're a guest");
-        }
+//        String role = "admin";
+//
+//        switch  (role) {
+//            case "admin":
+//                System.out.println("You're an admin");
+//                break;
+//            case "moderator":
+//                System.out.println("You're a moderator");
+//                break;
+//            default:
+//                System.out.println("You're a guest");
+//        }
 
 //        if (role == "admin")
 //            System.out.println("You're an admin");
@@ -136,5 +136,26 @@ Strings
 //            System.out.println("You're a moderator");
 //        else
 //            System.out.println("You're a guest");
+
+//        For Loops
+//        for (int i = 1; i <= 5; i++)
+//            System.out.println("Hello Future " + i);
+
+//        While Loops
+        Scanner scanner = new Scanner(System.in);
+        String input = "";
+//
+//        while (!input.equals("quit")) {
+//            System.out.print("Input: ");
+//            input = scanner.next().toLowerCase();
+//            System.out.println(input);
+
+//        Do While Loops
+
+        do {
+            System.out.print("Input: ");
+            input = scanner.next().toLowerCase();
+            System.out.println(input);
+        } while (!input.equals("quit"));
     }
 }
