@@ -111,7 +111,30 @@ Strings
 //        else
 //            System.out.println("Cold Day");
 //      Simplifying if statements
-        int income = 120_000;
-        boolean hasHighIncome = (income > 100_000);
+//        Ternary Operator
+//        int income = 120_000;
+//        String className = income > 100_000 ? "First Class" : "Economy Class";
+//        System.out.println(className);
+
+//        Switch Statements
+        String role = "admin";
+
+        switch  (role) {
+            case "admin":
+                System.out.println("You're an admin");
+                break;
+            case "moderator":
+                System.out.println("You're a moderator");
+                break;
+            default:
+                System.out.println("You're a guest");
+        }
+
+//        if (role == "admin")
+//            System.out.println("You're an admin");
+//        else if (role == "moderator")
+//            System.out.println("You're a moderator");
+//        else
+//            System.out.println("You're a guest");
     }
 }
