@@ -20,7 +20,8 @@ public class Main {
 
         System.out.print("Period (Years): ");
         byte years = scanner.nextByte();
-        int numberOfPayments = years * MONTHS_IN_YEAR;
+        int numberOfPayments;
+        numberOfPayments = years * MONTHS_IN_YEAR;
 
         double mortgage = principal
                 * (monthlyInterest * Math.pow(1 + monthlyInterest, numberOfPayments)) / (Math.pow(1 + monthlyInterest, numberOfPayments) -1);
