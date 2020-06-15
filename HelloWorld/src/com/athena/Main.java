@@ -93,10 +93,9 @@ Strings
 //        String name = scanner.nextLine().trim();
 //        System.out.println("You are " + name);
 
-//        Comparison Operators
-        int x =1;
-        int y =1;
-
-        System.out.println(x <= y);
+//        Logical Operators
+        int temperature = 12;
+        boolean isWarm = temperature > 20 && temperature < 30;
+        System.out.println(isWarm);
     }
 }
