@@ -142,18 +142,18 @@ Strings
 //            System.out.println("Hello Future " + i);
 
 //        While Loops
-        Scanner scanner = new Scanner(System.in);
-        String input = "";
+//        Scanner scanner = new Scanner(System.in);
+//        String input = "";
 //
-        while (true) {
-            System.out.print("Input: ");
-            input = scanner.next().toLowerCase();
-            if (input.equals("pass"))
-                continue;
-            if (input.equals("quit"))
-                break;
-            System.out.println(input);
-        }
+//        while (true) {
+//            System.out.print("Input: ");
+//            input = scanner.next().toLowerCase();
+//            if (input.equals("pass"))
+//                continue;
+//            if (input.equals("quit"))
+//                break;
+//            System.out.println(input);
+//        }
 
 //        Do While Loops
 
@@ -162,5 +162,11 @@ Strings
 //            input = scanner.next().toLowerCase();
 //            System.out.println(input);
 //        } while (!input.equals("quit"));
+
+//        For each loop
+        String[] fruits = { "Apple", "Banana", "Mango" };
+
+        for (int i =0; i < fruits.length; i++)
+            System.out.println(fruits[i]);
     }
 }
