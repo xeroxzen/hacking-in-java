@@ -94,8 +94,24 @@ Strings
 //        System.out.println("You are " + name);
 
 //        Logical Operators
-        int temperature = 12;
-        boolean isWarm = temperature > 20 && temperature < 30;
-        System.out.println(isWarm);
+//        boolean hasHighIncome = false;
+//        boolean hasGoodCredit = true;
+//        boolean hasCriminalRecord = false;
+//        boolean isEligible = (hasHighIncome || hasGoodCredit) && !hasCriminalRecord;
+//        System.out.println(isEligible);
+
+//        Conditional Statements
+//        int temp = 32;
+//        if (temp > 30) {
+//            System.out.println("It's a hot day");
+//            System.out.println("Drink water");
+//        }
+//        else if (temp > 20 && temp <= 30)
+//            System.out.println("Beautiful Day");
+//        else
+//            System.out.println("Cold Day");
+//      Simplifying if statements
+        int income = 120_000;
+        boolean hasHighIncome = (income > 100_000);
     }
 }
