@@ -9,7 +9,10 @@ public class Main {
         final byte MONTHS_IN_YEAR =12;
         final byte PERCENT = 100;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 44a8809fa564ee62562026fb43077658acbac8af
         int principal = 0;
         float monthlyInterest = 0;
         int numberOfPayments = 0;
