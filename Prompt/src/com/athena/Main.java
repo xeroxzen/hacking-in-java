@@ -24,13 +24,15 @@ public class Main {
         profession = scanner.next();
         System.out.print("Are you Male or Female? ");
         gender = scanner.next();
-        System.out.print("Enter your birth date: ");
+        System.out.println("----------------------");
 
-        System.out.println(firstName);
-        System.out.println(lastName);
-        System.out.println(age);
-        System.out.println(profession);
-        System.out.println(gender);
-        System.out.println(birthday);
+        System.out.println("First Name: "+ firstName);
+        System.out.println("Last Name: "+ lastName);
+        System.out.println("Age: "+ age);
+        System.out.println("Career: " + profession);
+        System.out.println("Gender: " + gender);
+        System.out.println("Date: " + birthday);
+
+        System.out.println("-----------------------");
     }
 }
